@@ -14,11 +14,14 @@ This repository contains the code and documentation for the Company Z Management
 
 ## Final Report
 
-The final report for the project is available [here](SWDD-Data_Devs_Final_Report.pdf).
+The final report for the project is available [here](https://github.com/Walidabdul/Company-Z-Management-System-Project/blob/main/SWDD-Data%20Devs%20Final%20Report.pdf)
+
+(SWDD-Data_Devs_Final_Report.pdf).
 
 ## Video Presentation
 
-The video presentation of the project can be viewed [here](Data_Devs,_video_presentation.mp4).
+The video presentation of the project can be viewed [here](
+(Data_Devs,_video_presentation.mp4).
 
 ## Technologies Used
 
