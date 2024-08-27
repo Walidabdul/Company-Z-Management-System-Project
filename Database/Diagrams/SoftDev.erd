@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="SoftDev">
+	<entities>
+		<data-source id="mysql8-18d5fe18272-b3c4cbe12a34aee">
+			<entity id="1" name="address" fq-name="employeedata.address">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="2" name="demographics" fq-name="employeedata.demographics">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="3" name="division" fq-name="employeedata.division">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="4" name="employee_division" fq-name="employeedata.employee_division">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="5" name="employee_job_titles" fq-name="employeedata.employee_job_titles">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="6" name="employees" fq-name="employeedata.employees">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="7" name="job_titles" fq-name="employeedata.job_titles">
+				<path name="employeedata"/>
+			</entity>
+			<entity id="8" name="payroll" fq-name="employeedata.payroll">
+				<path name="employeedata"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="division_ibfk_1" fq-name="employeedata.division.division_ibfk_1" type="fk" pk-ref="4" fk-ref="3"/>
+		<relation name="job_titles_ibfk_1" fq-name="employeedata.job_titles.job_titles_ibfk_1" type="fk" pk-ref="5" fk-ref="7"/>
+		<relation name="address_ibfk_1" fq-name="employeedata.address.address_ibfk_1" type="fk" pk-ref="6" fk-ref="1"/>
+		<relation name="employee_division_ibfk_1" fq-name="employeedata.employee_division.employee_division_ibfk_1" type="fk" pk-ref="6" fk-ref="4"/>
+		<relation name="employee_job_titles_ibfk_1" fq-name="employeedata.employee_job_titles.employee_job_titles_ibfk_1" type="fk" pk-ref="6" fk-ref="5"/>
+		<relation name="payroll_ibfk_1" fq-name="employeedata.payroll.payroll_ibfk_1" type="fk" pk-ref="6" fk-ref="8"/>
+	</relations>
+</diagram>
