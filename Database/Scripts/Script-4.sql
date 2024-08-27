@@ -1,2 +1,2 @@
 use employeedata;
-select * from address;
+select * from employeedata e;
