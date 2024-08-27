@@ -1,2 +1,2 @@
-use employeedata;
-select * from employeedata e;
+use employeeData;
+select * from employeeData e;
