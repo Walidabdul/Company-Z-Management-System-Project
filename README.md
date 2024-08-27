@@ -33,4 +33,6 @@ The video presentation of the project can be viewed [here](https://github.com/Wa
 - **`lib/`**: Contains any external libraries used.
 - **`.vscode/`**: Contains Visual Studio Code settings.
 - **`managementsys.code-workspace`**: Visual Studio Code workspace configuration file for the project.
+- **`Database/**: Contains the SQL scripts and database dumps. 
+
 
