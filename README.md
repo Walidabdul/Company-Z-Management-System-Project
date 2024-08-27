@@ -1,17 +1,35 @@
 # Company Z Management System
 
-The Company Z Management System is a database management tool designed to streamline employee data handling, payroll processing, and report generation. The system allows users to efficiently update employee records, generate detailed reports on employee information and payroll data, and apply salary adjustments based on predefined criteria.
+## Overview
+
+This repository contains the code and documentation for the Company Z Management System.
 
 ## Key Features
-- **Employee Data Management**: Update and maintain accurate employee records, ensuring the database is always up-to-date.
-- **Report Generation**: Generate detailed reports on employee information and payroll history, with support for various filters.
-- **Payroll Adjustments**: Apply salary and wage increases to full-time employees based on specified salary ranges, ensuring fair compensation.
+
+- **Employee Management**: Add, update, and delete employee records efficiently.
+- **Database Operations**: Perform various operations such as updating employee data, managing salaries, and generating reports.
+- **Reporting**: Generate detailed reports on employee information and payroll data.
+- **User Interaction**: Command-line interface for easy database management and report generation.
+- **Error Handling**: Robust error handling for invalid inputs and operations.
+
+## Final Report
+
+The final report for the project is available [here](docs/Data_Dev_Final_Report.pdf).
+
+## Video Presentation
+
+The video presentation of the project can be viewed [here](videos/Video_Presentation.mp4).
 
 ## Technologies Used
-- Java
-- Python
-- SQL
-- Git
-- GitHub
 
-## How to Run
+- **Java**: For the core application logic.
+- **SQL**: For database management and queries.
+
+## Project Structure
+
+- **`src/`**: Contains the Java source code files.
+- **`bin/`**: Contains compiled Java bytecode.
+- **`lib/`**: Contains any external libraries used.
+- **`.vscode/`**: Contains Visual Studio Code settings.
+- **`managementsys.code-workspace`**: Visual Studio Code workspace configuration file for the project.
+
