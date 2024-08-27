@@ -1,14 +1,18 @@
-# Company Z Management System
+## Getting Started
 
-The Company Z Management System is a database management tool designed to streamline employee data handling, payroll processing, and report generation. The system allows users to efficiently update employee records, generate detailed reports on employee information and payroll data, and apply salary adjustments based on predefined criteria.
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Key Features
-- **Employee Data Management**: Update and maintain accurate employee records, ensuring the database is always up-to-date.
-- **Report Generation**: Generate detailed reports on employee information and payroll history, with support for various filters.
-- **Payroll Adjustments**: Apply salary and wage increases to full-time employees based on specified salary ranges, ensuring fair compensation.
+## Folder Structure
 
-## Technologies Used
-- Python
-- SQL
-- Git
-- GitHub
+The workspace contains two folders by default, where:
+
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
+
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
