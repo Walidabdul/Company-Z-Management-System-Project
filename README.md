@@ -8,6 +8,7 @@ The Company Z Management System is a database management tool designed to stream
 - **Payroll Adjustments**: Apply salary and wage increases to full-time employees based on specified salary ranges, ensuring fair compensation.
 
 ## Technologies Used
+- Java
 - Python
 - SQL
 - Git
